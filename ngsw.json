@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "https://mahendrabagul.github.io/retail-product-finder-pwa-app/index.html",
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/favicon.ico",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/index.html",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/main.422fc1b2f8c83861ab0e.js",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/polyfills.20ab2d163684112c2aba.js",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/runtime.ec2944dd8b20ec099bf3.js",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/styles.fb6a5150abb5bb8fa68e.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.422fc1b2f8c83861ab0e.js",
+        "/polyfills.20ab2d163684112c2aba.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/styles.fb6a5150abb5bb8fa68e.css"
       ],
       "patterns": []
     },
@@ -21,38 +21,38 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-128.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-144.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-152.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-192.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-36.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-384.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-48.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-512.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-72.png",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-96.png"
+        "/assets/icons/Icon-128.png",
+        "/assets/icons/Icon-144.png",
+        "/assets/icons/Icon-152.png",
+        "/assets/icons/Icon-192.png",
+        "/assets/icons/Icon-36.png",
+        "/assets/icons/Icon-384.png",
+        "/assets/icons/Icon-48.png",
+        "/assets/icons/Icon-512.png",
+        "/assets/icons/Icon-72.png",
+        "/assets/icons/Icon-96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-128.png": "4439f03070e0b53a67f578b86cfa5fe7d16a431f",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-144.png": "6d0258079a1aff871f6e5d9b7d4d495bcf027b1e",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-152.png": "87602b6029be1458452c3d67ba729d0d62ba180e",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-192.png": "03443c966c21f0568693d85b29cf42505824f8d8",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-36.png": "8d5c1f165a0d8e6cbc9e091686f1fcfbdca24a47",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-384.png": "6cbba918e28276fad82b6bc7aa7f6c0b34827145",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-48.png": "1fc4745772fa1a405498564bad6758555397cb69",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-512.png": "fbbd9d6f48e62fadfab648e335a0a27f14c08118",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-72.png": "be9854aba4ce23dfc8993a0160183233f0b5ba8e",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-96.png": "3e3a12390aaeafb9581a24781afd3546bbce6331",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/index.html": "12cddfb358403e6823d651e5443bebb4e765cbb9",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/main.422fc1b2f8c83861ab0e.js": "19d9869fb4d4dc5a997208ecac2ed3eb4fb36526",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/styles.fb6a5150abb5bb8fa68e.css": "c25fc0b57c06db1d13a22c51d059a3a67d18c07f"
+    "/assets/icons/Icon-128.png": "4439f03070e0b53a67f578b86cfa5fe7d16a431f",
+    "/assets/icons/Icon-144.png": "6d0258079a1aff871f6e5d9b7d4d495bcf027b1e",
+    "/assets/icons/Icon-152.png": "87602b6029be1458452c3d67ba729d0d62ba180e",
+    "/assets/icons/Icon-192.png": "03443c966c21f0568693d85b29cf42505824f8d8",
+    "/assets/icons/Icon-36.png": "8d5c1f165a0d8e6cbc9e091686f1fcfbdca24a47",
+    "/assets/icons/Icon-384.png": "6cbba918e28276fad82b6bc7aa7f6c0b34827145",
+    "/assets/icons/Icon-48.png": "1fc4745772fa1a405498564bad6758555397cb69",
+    "/assets/icons/Icon-512.png": "fbbd9d6f48e62fadfab648e335a0a27f14c08118",
+    "/assets/icons/Icon-72.png": "be9854aba4ce23dfc8993a0160183233f0b5ba8e",
+    "/assets/icons/Icon-96.png": "3e3a12390aaeafb9581a24781afd3546bbce6331",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "23942b0183e60973df930f81dd7c58603eb2c553",
+    "/main.422fc1b2f8c83861ab0e.js": "19d9869fb4d4dc5a997208ecac2ed3eb4fb36526",
+    "/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.fb6a5150abb5bb8fa68e.css": "c25fc0b57c06db1d13a22c51d059a3a67d18c07f"
   },
   "navigationUrls": [
     {
