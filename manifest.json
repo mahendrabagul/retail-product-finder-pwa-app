@@ -6,7 +6,7 @@
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/retail-product-finder-pwa-app/ind",
+  "start_url": "https://mahendrabagul.github.io/retail-product-finder-pwa-app/",
   "icons": [
     {
       "src": "assets/icons/Icon-36.png",
