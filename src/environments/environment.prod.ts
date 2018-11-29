@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  API_URL: 'https://d325a00a.ngrok.io/retail-product-finder-service'
+  API_URL: 'https://57f39bfb.ngrok.io/retail-product-finder-service'
 };
