@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { Item, ApiService } from './api.service';
+import {Component, OnInit} from '@angular/core';
+import {DeviceService} from './services/device/device.service';
+import {SwUpdate} from '@angular/service-worker';
 
 @Component({
   selector: 'app-root',
@@ -7,19 +8,18 @@ import { Item, ApiService } from './api.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'retail-product-finder-mobile-app';
-  items: Array<Item>;
-  constructor(private apiService: ApiService) {
+  title = 'Retail Product Finder Mobile App';
+
+  constructor(private apiService: DeviceService, private swUpdate: SwUpdate) {
   }
+
   ngOnInit() {
-    this.fetchData();
-  }
-  fetchData() {
-    this.apiService.fetch().subscribe((data: Array<Item>) => {
-      console.log(data);
-      this.items = data;
-    }, (err) => {
-      console.log(err);
-    });
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+        if (confirm('New version available. Load New Version?')) {
+          window.location.reload();
+        }
+      });
+    }
   }
 }

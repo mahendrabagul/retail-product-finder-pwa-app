@@ -1,11 +1,12 @@
 {
-  "name": "retail-product-finder-mobile-app",
-  "short_name": "retail-product-finder-mobile-app",
+  "name": "Retail Product Finder Mobile App",
+  "short_name": "Retail Product Finder",
   "theme_color": "#1976d2",
+  "description": "A funny cat image generator",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "https://mahendrabagul.github.io/retail-product-finder-pwa-app/",
   "icons": [
     {
       "src": "assets/icons/Icon-36.png",
