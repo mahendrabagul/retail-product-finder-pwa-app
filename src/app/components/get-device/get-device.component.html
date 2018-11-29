@@ -1,0 +1,46 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Device Details</mat-card-title>
+    <mat-card-subtitle>This device will guide you to the interested product</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../../../assets/device-image.jpg">
+  <mat-card-content>
+    For new shopping experience, request bot and release bot once you are done.
+  </mat-card-content>
+  <mat-card-content>
+    <table border="1" class="mat-elevation-z8">
+      <thead>
+      <td> Device Id</td>
+      <td>
+        Device Tenant
+      </td>
+      <td>
+        Currently Allocated To :
+      </td>
+      </thead>
+      <tr>
+        <td> {{device?.deviceId}}</td>
+        <td>
+          {{device?.tenant.tenantName}}
+        </td>
+        <td>
+          {{device?.user.userName}}
+        </td>
+      </tr>
+    </table>
+  </mat-card-content>
+  <hr/>
+  <mat-card-actions>
+    <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+    <button color="primary" *ngIf="!device" (click)="getFreeDevice()" mat-button mat-raised-button>
+      Get Free Bot
+    </button>
+    <button color="accent" *ngIf="device" (click)="findProduct()" mat-button mat-raised-button>
+      Find Product
+    </button>
+    <button color="warn" *ngIf="device" (click)="releaseDevice()" mat-button mat-raised-button>
+      Release Bot
+    </button>
+  </mat-card-actions>
+</mat-card>

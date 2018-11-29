@@ -4,7 +4,7 @@ import {LoginComponent} from './components/login/login.component';
 import {AuthGuardService} from './services/auth-guard/auth-guard.service';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
 import {HomeComponent} from './components/home/home.component';
-import {GetDeviceComponent} from './components/get-robot/get-device.component';
+import {GetDeviceComponent} from './components/get-device/get-device.component';
 import {FindProductComponent} from './components/find-product/find-product.component';
 
 const routes: Routes = [

@@ -11,3 +11,15 @@
   margin: 0 auto;
   display: block;
 }
+
+.frame-container {
+  position: relative;
+  //height: 0;
+  //overflow: hidden;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+}
+

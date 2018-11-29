@@ -4,6 +4,7 @@ import {
   MatButtonModule,
   MatCardModule,
   MatDialogModule,
+  MatDividerModule,
   MatIconModule,
   MatInputModule,
   MatMenuModule,
@@ -14,6 +15,7 @@ import {
 
 @NgModule({
   imports: [
+    MatDividerModule,
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
@@ -26,6 +28,7 @@ import {
     MatProgressSpinnerModule
   ],
   exports: [
+    MatDividerModule,
     CommonModule,
     MatToolbarModule,
     MatButtonModule,

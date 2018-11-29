@@ -16,13 +16,13 @@ const httpOptions = {
 
 export class DeviceService {
 
-  apiUrl = environment.API_URL + '/api/v1/devices/free';
+  apiUrl = environment.API_URL + '/api/v1/devices';
 
   constructor(private http: HttpClient, private tokenService: TokenService) {
   }
 
   getFreeDevice(): Observable<Device> {
-    const url = `${this.apiUrl}` + '/' + this.tokenService.getTenantId();
+    const url = `${this.apiUrl}` + '/free/' + this.tokenService.getTenantId();
     return this.http.get<Device>(url).pipe(
       tap(_ => console.log(`Get Free Device`)),
       catchError(this.handleError<Device>(`Get Free Device`))
@@ -34,5 +34,13 @@ export class DeviceService {
       console.error(error);
       return of(result as T);
     };
+  }
+
+  releaseDevice(): Observable<any> {
+    const url = `${this.apiUrl}` + '/release/' + this.tokenService.getTenantId();
+    return this.http.get<Device>(url).pipe(
+      tap(_ => console.log(`Release Device`)),
+      catchError(this.handleError<Device>(`Get Release Device`))
+    );
   }
 }

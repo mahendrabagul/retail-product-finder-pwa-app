@@ -4,7 +4,6 @@ import {User} from 'src/app/models/user';
 import {AuthService} from 'src/app/services/auth/auth.service';
 import {TokenService} from 'src/app/services/token/token.service';
 import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
-import {NgxSpinnerService} from 'ngx-spinner';
 import {CommonService} from '../../services/common/common.service';
 
 @Component({
@@ -13,7 +12,7 @@ import {CommonService} from '../../services/common/common.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-
+  showSpinner = false;
   user: User = new User();
   errMessage: string;
   successMessage: string;
@@ -26,7 +25,7 @@ export class LoginComponent implements OnInit {
 
   tenantNames: string[];
 
-  constructor(private commonService: CommonService, private spinner: NgxSpinnerService, private tokenService: TokenService,
+  constructor(private commonService: CommonService, private tokenService: TokenService,
               private fb: FormBuilder, private authService: AuthService, private router: Router
   ) {
     this.createForm();
@@ -45,7 +44,7 @@ export class LoginComponent implements OnInit {
   }
 
   onLogin(formData): void {
-    this.spinner.show();
+    this.showSpinner = true;
     this.user.userName = formData.value.userName;
     this.user.password = formData.value.password;
     this.user.tenantName = formData.value.tenantName;
@@ -53,9 +52,9 @@ export class LoginComponent implements OnInit {
       this.tokenService.setToken(authToken);
       this.router.navigateByUrl('/app-home');
       this.errMessage = 'You are succcessfully logged in';
-      this.spinner.hide();
+      this.showSpinner = false;
     }, error => {
-      this.spinner.hide();
+      this.showSpinner = false;
       if (error.error instanceof ErrorEvent) {
         // A client-side or network error occurred. Handle it accordingly.
         this.errMessage = `An error occurred : ${error.error.message}`;

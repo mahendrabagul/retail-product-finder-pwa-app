@@ -7,7 +7,7 @@ import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
 import {FindProductComponent} from './components/find-product/find-product.component';
-import {GetDeviceComponent} from './components/get-robot/get-device.component';
+import {GetDeviceComponent} from './components/get-device/get-device.component';
 import {AuthGuardService} from './services/auth-guard/auth-guard.service';
 import {AuthService} from './services/auth/auth.service';
 import {ErrorInterceptor} from './helpers/error-interceptor';
