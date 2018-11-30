@@ -9,7 +9,7 @@
       "urls": [
         "https://mahendrabagul.github.io/retail-product-finder-pwa-app/favicon.ico",
         "https://mahendrabagul.github.io/retail-product-finder-pwa-app/index.html",
-        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/main.a87903b2501ef0162c09.js",
+        "https://mahendrabagul.github.io/retail-product-finder-pwa-app/main.36c7e4d8da5cc8b17d59.js",
         "https://mahendrabagul.github.io/retail-product-finder-pwa-app/polyfills.20ab2d163684112c2aba.js",
         "https://mahendrabagul.github.io/retail-product-finder-pwa-app/runtime.ec2944dd8b20ec099bf3.js",
         "https://mahendrabagul.github.io/retail-product-finder-pwa-app/styles.8ca2955ddd7f50d500b3.css"
@@ -40,8 +40,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/device-icon.jpg": "24de2097138a831f0330dcc440bdb84f8d900ab2",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/device-image.jpg": "92ba0eb3cc46102361d9d74933ec1c8a30bc9bf0",
+    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/device-icon.jpg": "b11a82ca3a57b76231c84280035f9d99c80d82ad",
+    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/device-image.jpg": "b11a82ca3a57b76231c84280035f9d99c80d82ad",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-128.png": "4439f03070e0b53a67f578b86cfa5fe7d16a431f",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-144.png": "6d0258079a1aff871f6e5d9b7d4d495bcf027b1e",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-152.png": "87602b6029be1458452c3d67ba729d0d62ba180e",
@@ -54,8 +54,8 @@
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/icons/Icon-96.png": "3e3a12390aaeafb9581a24781afd3546bbce6331",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/assets/infosys.jpg": "af1ad74835399b3f5f505896477909b4b24921bd",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/favicon.ico": "0c669bef6b537761d013026e8ed0b23fbf34d88e",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/index.html": "61ea54dfeb74bbbed9af81d8c1e4710e5b2febc9",
-    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/main.a87903b2501ef0162c09.js": "d115f658391eaa73a1fb2ce7cf004c058e5c21f0",
+    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/index.html": "dc64649ddd3141810878721b4542abd760d03636",
+    "https://mahendrabagul.github.io/retail-product-finder-pwa-app/main.36c7e4d8da5cc8b17d59.js": "2ea5ed50032e988d5c3b738ce3cdb7fba789bd1c",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://mahendrabagul.github.io/retail-product-finder-pwa-app/styles.8ca2955ddd7f50d500b3.css": "1938f2eb1cd36ad176e4fbaf0736d54d901e0d80"
